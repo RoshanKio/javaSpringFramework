@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\katuw\git\javaSpringFramework\.metadata\.plugins\org.eclipse.jdt.core
+3558326139.index
+3272574926.index
+3695587268.index
+1865797976.index
+2017262399.index
+3589549907.index
+3963498844.index
+3959137331.index
+4066318926.index
+1062454356.index
+2067790604.index
+1411621244.index
