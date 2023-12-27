@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+	<bean id="sb" class="com.takeo.Student">
+		<property name="sno" value="100"></property>
+		<property name="sname" value="shiva"/>
+		<property name="sadd" value="hyd"/>
+	</bean>
+	
+	<bean id="clg" class="com.takeo.College">
+		<property name="name" value="NIC College"/>
+		<property name="student" ref="sb"/>
+	</bean>
+	
+	<bean id="clg1" class="com.takeo.College" autowire="byName">
+		<property name="name" value="BCCC College"/>
+	</bean>
+	
+	<bean id="clg2" class="com.takeo.College" autowire="byType">
+		<property name="name" value="Louisiana Tech"/>
+	</bean>
+	
+	<bean id="clg3" class="com.takeo.College" autowire="constructor">
+		<property name="name" value="Baruch College"/>
+	</bean>
+	
+</beans>
