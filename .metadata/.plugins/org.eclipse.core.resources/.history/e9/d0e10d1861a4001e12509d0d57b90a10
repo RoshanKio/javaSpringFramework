@@ -1,0 +1,8 @@
+package com.takeo;
+
+public class MathCheat {
+	@Override
+	public String toString() {
+		return "MathCheat object";
+	}
+}

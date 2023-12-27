@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//spring//EN" "https://www.springframework.org/">
+
+<beans>
+	<bean class="com.takeo.MathCheat" id="mc"></bean>
+	<bean class="com.takeo.Student" id="std">
+		<property name="mathCheat">
+			<bean class="com.takeo.MathCheat"></bean>
+		</property>
+		<property name="id" value="1001"></property>
+	</bean>
+</beans>

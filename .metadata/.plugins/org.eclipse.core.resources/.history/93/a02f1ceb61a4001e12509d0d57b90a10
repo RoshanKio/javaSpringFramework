@@ -1,0 +1,17 @@
+package com.takeo;
+
+public class Employee {
+	
+	public Employee() {
+		System.out.println("Employee class....constructor");
+	}
+	
+	private String city;
+	
+	private String design;
+	
+	private double salary;
+	
+	
+
+}

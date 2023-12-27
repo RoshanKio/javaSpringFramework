@@ -1,0 +1,15 @@
+package com.takeo;
+
+public class Student {
+	
+	private MathCheat mathCheat;
+	
+	public MathCheat getMathCheat() {
+		return mathCheat;
+	}
+	
+	public void setMathCheat(MathCheat mathCheat) {
+		this.mathCheat = mathCheat;
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.takeo;
+
+public class Student {
+	
+	private MathCheat mathCheat;
+	private int id;
+	
+	public MathCheat getMathCheat() {
+		return mathCheat;
+	}
+	
+	public void setMathCheat(MathCheat mathCheat) {
+		this.mathCheat = mathCheat;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+
+}

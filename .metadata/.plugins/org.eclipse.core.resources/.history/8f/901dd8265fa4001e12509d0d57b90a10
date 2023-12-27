@@ -1,0 +1,8 @@
+package com.takeo;
+
+public class Student {
+	
+	private MathCheat mathCheat;
+	
+
+}
