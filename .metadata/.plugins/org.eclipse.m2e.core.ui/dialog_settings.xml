@@ -31,6 +31,7 @@
 			<item value="com.takeo"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring3"/>
 			<item value="spring2"/>
 		</list>
 		<list key="projectNameTemplate">

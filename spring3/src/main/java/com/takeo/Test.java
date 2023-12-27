@@ -11,7 +11,7 @@ public class Test {
 		Employee emp = new Employee();
 		emp.hi();
 		
-		//((Employee)factory.getBean("abstractEmp")).hi();
+		((Employee)factory.getBean("abstractEmp")).hi();
 	}
 
 }

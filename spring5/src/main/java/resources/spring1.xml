@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+	<bean id="student" class="com.takeo.Student">
+		<property name="sno" value="100"/>
+		<property name="sname" value="Shiva"/>
+		<property name="sadd" value="hyd"/>
+	</bean>
+	<bean id= "clg" class="com.takeo.College" autowire="constructor">
+		<property name="name" value="NIC College"/>
+	</bean>
+</beans>
