@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd htp://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="myBean" class="com.takeo.InstituteBean">
+		<property name="name" value="NIC College"/>
+		<property name="facultyNames">
+			<list>
+				<value>Ram</value>
+				<value>Shyam</value>
+				<value>Krishna</value>
+				<value>Balaram</value>
+				<value>Parashuram</value>
+			</list>
+		</property>
+		<property name="courseNames">
+			<list>
+				<value>Java</value>
+				<value>Ansible</value>
+				<value>Linux</value>
+				<value>Kubernetes</value>
+				<value>Docker</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

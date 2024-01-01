@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd htp://www.springframework.org/schema/context http://www.springframework.org/schema/sontext/spring-context.xsd">
+	
+	<bean id="stu1" class="com.takeo.Student">
+		<property name="sno" value="101"/>
+		<property name="sname" value="Ram"/>
+	</bean>
+	
+	<bean id="stu2" class="com.takeo.Student">
+		<property name="sno" value="102"/>
+		<property name="sname" value="Shyam"/>
+	</bean>
+	
+	<bean id="stu3" class="com.takeo.Student">
+		<property name="sno" value="103"></property>
+		<property name="sname" value="Krishna"/>
+	</bean>
+	
+	<bean id="stu4" class="com.takeo.Student">
+		<property name="sno" value="104"/>
+		<property name="sname" value="Narayan"/>
+	</bean>
+	
+	<bean id="clg" class="com.takeo.College">
+		<property name="name" value="NIC College"/>
+		<property name="students">
+			<set>
+				<ref bean="stu1"/>
+				<ref bean="stu2"/>
+				<ref bean="stu3"/>
+				<ref bean="stu4"/>
+			</set>
+		</property>
+	</bean>
+	
+	
+</beans>
