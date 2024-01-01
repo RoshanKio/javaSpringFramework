@@ -1,0 +1,27 @@
+package com.takeo;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        BeanFactory factory = new ClassPathXmlApplicationContext("resources/beans.xml");
+        
+        System.out.println("Instantiated the IOC Container, ClassPathXmlApplicationContext......");
+        
+        Account account1 = (Account)factory.getBean("account1");
+        Account account2 = (Account)factory.getBean("account2");
+        Account account3 = (Account)factory.getBean("account3");
+        
+        System.out.println(account1+"\n"+account2+"\n"+account3);
+        
+        
+        
+    }
+}

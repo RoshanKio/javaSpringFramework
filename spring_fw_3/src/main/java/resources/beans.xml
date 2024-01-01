@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd htp://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="account1" class="com.takeo.Account">
+		<property name="accNo">
+			<value>101</value>
+		</property>
+		<property name="accName" value="Saving1"/>	
+	</bean>
+	
+	<bean id="account2" class="com.takeo.Account">		
+		<constructor-arg value="102"/>		
+		<constructor-arg value="checking2"></constructor-arg>		
+	</bean>
+	
+	<bean id="account3" class="com.takeo.Account">
+		<constructor-arg type="int" name="accNo"><value>103</value></constructor-arg>
+		<constructor-arg type="java.lang.String" name="accName" value="Saving3"></constructor-arg>
+	</bean>
+	
+	
+
+</beans>
