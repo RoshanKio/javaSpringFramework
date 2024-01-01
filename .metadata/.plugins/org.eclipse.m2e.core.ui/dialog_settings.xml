@@ -26,11 +26,16 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.takeo"/>
+			<item value="com.takeo.spring4"/>
 		</list>
 		<list key="groupId">
 			<item value="com.takeo"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring_fw_1"/>
+			<item value="spring6"/>
+			<item value="spring5"/>
+			<item value="spring4"/>
 			<item value="spring3"/>
 			<item value="spring2"/>
 		</list>
