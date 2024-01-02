@@ -1,0 +1,40 @@
+package com.takeo.entity;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class College {
+	
+	private String name;
+	
+	@Autowired
+	private Employee employee;
+	
+	static int c;
+	
+	public College() {
+		System.out.println((++c)+")College Constructor executed..............");
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public Employee getEmployee() {
+		return employee;
+	}
+	public void setEmployee(Employee employee) {
+		this.employee= employee;
+	}
+	
+	@Override
+	public String toString() {
+		return "[College name = "+name+", employee = "+employee+"]";
+	}
+
+}

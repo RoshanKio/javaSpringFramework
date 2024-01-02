@@ -14,7 +14,7 @@ public class App
         BeanFactory factory = new ClassPathXmlApplicationContext("/beans.xml");
         System.out.println("Right after Instantiating the IOC Container, ClassPathXmlApplicationContext(c)........................");
         
-        SpringBean sb1 = (SpringBean)factory.getBean("sb1");
-        //SpringBean sb2 = (SpringBean)factory.getBean("sb2");
+        //SpringBean sb1 = (SpringBean)factory.getBean("sb1");
+        SpringBean sb2 = (SpringBean)factory.getBean("sb2");
     }
 }

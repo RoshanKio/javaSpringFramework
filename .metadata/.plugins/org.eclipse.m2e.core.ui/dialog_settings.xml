@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\katuw\git\javaSpringFramework\spring_fw_5\pom.xml"/>
+			<item value="C:\Users\katuw\git\javaSpringFramework\spring_fw_2\src\main\java\com\takeo\App.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -32,12 +34,21 @@
 			<item value="com.takeo"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring_fw_12"/>
+			<item value="spring_fw_11"/>
+			<item value="spring_fw_10"/>
+			<item value="spring_fw_9"/>
+			<item value="spring_fw_8"/>
+			<item value="spring_fw_7"/>
+			<item value="spring_fw_6"/>
+			<item value="spring_fw_5"/>
+			<item value="spring_fw_4"/>
+			<item value="spring_fw_3"/>
+			<item value="spring_fw_2"/>
 			<item value="spring_fw_1"/>
 			<item value="spring6"/>
 			<item value="spring5"/>
 			<item value="spring4"/>
-			<item value="spring3"/>
-			<item value="spring2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
