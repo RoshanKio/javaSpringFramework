@@ -34,6 +34,10 @@
 			<item value="com.takeo"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring_jdbc_01"/>
+			<item value="springjdbc_1"/>
+			<item value="spring_fw_14"/>
+			<item value="spring_fw_13"/>
 			<item value="spring_fw_12"/>
 			<item value="spring_fw_11"/>
 			<item value="spring_fw_10"/>
@@ -45,10 +49,6 @@
 			<item value="spring_fw_4"/>
 			<item value="spring_fw_3"/>
 			<item value="spring_fw_2"/>
-			<item value="spring_fw_1"/>
-			<item value="spring6"/>
-			<item value="spring5"/>
-			<item value="spring4"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

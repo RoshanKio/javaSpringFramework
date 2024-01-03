@@ -1,0 +1,25 @@
+package com.takeo.dao;
+
+import java.util.List;
+
+import com.takeo.entity.Employee;
+
+public interface EmployeeDao {
+	//CRUD:
+	
+	//1)Create:
+	int saveEmployee(Employee employee);
+	
+	//2)Retrieve:
+	Employee getEmployeeById(int eno);
+	List<Employee> getAllEmployees();
+	
+	//3)Update:
+	int updateEmployee(Employee employee);
+	
+	//4)Delete:
+	int deleteEmployeeById(int eno);
+	int deleteAllEmployees();
+	
+
+}
