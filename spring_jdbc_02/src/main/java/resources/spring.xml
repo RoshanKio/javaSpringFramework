@@ -12,9 +12,7 @@
 	<!--For Using Annotations in our Application-->
 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
 	
-	<!--For Using Annotations in our Application-->
-	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
-	
+
 	
 	<!--Datasource Configuration-->
 	<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">

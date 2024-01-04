@@ -3522,3 +3522,336 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2024-01-03 22:02:21,081 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_02\src\main\resources
 2024-01-03 22:02:21,084 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-01-03 22:02:21,085 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_02\src\test\resources
+2024-01-04 08:29:20,603 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-04 08:33:56,295 [Worker-7: Launching App (15)] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-01-04 08:36:57,193 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [267])
+2024-01-04 08:36:57,202 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2024-01-04 08:36:57,203 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2024-01-04 08:36:57,203 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2024-01-04 08:36:57,203 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2024-01-04 08:36:57,204 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2024-01-04 08:36:57,204 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2024-01-04 08:36:57,204 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2024-01-04 08:36:57,204 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2024-01-04 08:36:57,204 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2024-01-04 08:36:57,205 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2024-01-04 08:36:57,206 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2024-01-04 08:36:57,206 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2024-01-04 08:36:57,206 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2024-01-04 08:36:57,206 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2024-01-04 08:36:57,207 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2024-01-04 08:36:57,207 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2024-01-04 08:36:57,207 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2024-01-04 08:36:57,208 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2024-01-04 08:36:57,208 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2024-01-04 08:36:57,208 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2024-01-04 08:36:57,208 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2024-01-04 08:36:57,209 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2024-01-04 08:36:57,209 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2024-01-04 08:36:57,209 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-01-04 08:36:57,210 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-01-04 08:36:57,210 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2024-01-04 08:36:57,210 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2024-01-04 08:36:57,210 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2024-01-04 08:36:57,211 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2024-01-04 08:36:57,211 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2024-01-04 08:36:57,211 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2024-01-04 08:36:57,211 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2024-01-04 08:36:57,212 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2024-01-04 08:36:57,212 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2024-01-04 08:36:57,214 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [8])
+2024-01-04 08:36:57,216 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2024-01-04 08:36:57,217 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [431])
+2024-01-04 08:36:57,217 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2024-01-04 08:36:57,217 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [18])
+2024-01-04 08:36:57,220 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2024-01-04 08:36:57,220 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [16])
+2024-01-04 08:36:57,222 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\katuw\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2024-01-04 08:36:57,225 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\katuw\AppData\Local\Temp\m2e-archetypeGenerator15362978309842391787":
+2024-01-04 08:36:57,226 [Worker-27: Launching mavenrun-26c4def3-4f5c-474f-b45b-f4a208e1cd6a] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DgroupId=com.takeo -DartifactId=spring_jdbc_03 -Dversion=0.0.1-SNAPSHOT -Dpackage=com.takeo -DoutputDirectory=C:\Users\katuw\git\javaSpringFramework -Dstyle.color=always -U archetype:generate
+2024-01-04 08:37:23,059 [Worker-28: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\pom.xml
+2024-01-04 08:37:23,727 [Worker-28: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.takeo:spring_jdbc_03:0.0.1-SNAPSHOT @ C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\pom.xml.
+2024-01-04 08:37:24,321 [Worker-28: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_jdbc_03/src/main/java
+2024-01-04 08:37:24,326 [Worker-28: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_jdbc_03/src/test/java
+2024-01-04 08:37:24,415 [Worker-28: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-01-04 08:37:24,976 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:37:24,977 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:37:24,982 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:37:24,982 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:39:14,307 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.takeo:spring_jdbc_03:0.0.1-SNAPSHOT @ C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\pom.xml.
+2024-01-04 08:39:14,345 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-01-04 08:39:14,596 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:39:14,597 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:39:14,602 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:39:14,602 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:39:15,953 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:39:15,954 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:39:15,956 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:39:15,956 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:41:22,638 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-01-04 08:41:22,909 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.takeo:spring_jdbc_03:0.0.1-SNAPSHOT @ C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\pom.xml.
+2024-01-04 08:41:22,931 [Worker-31: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-01-04 08:41:23,081 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_jdbc_03/src/main/java
+2024-01-04 08:41:23,082 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_jdbc_03/src/test/java
+2024-01-04 08:41:23,213 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-01-04 08:41:23,417 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:41:23,418 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:41:23,421 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:41:23,421 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:42:58,015 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:42:58,016 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:42:58,018 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:42:58,019 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:43:21,905 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:43:21,905 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:43:21,907 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:43:21,907 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:51:36,356 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:51:36,356 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:51:36,360 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:51:36,360 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:53:09,657 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:53:09,657 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:53:09,658 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:53:09,659 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:55:05,811 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:55:05,811 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:55:05,814 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:55:05,814 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:56:03,568 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:56:03,569 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 08:56:03,571 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:56:03,571 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 08:57:25,639 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:57:25,640 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_02\src\main\resources
+2024-01-04 08:57:25,642 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 08:57:25,642 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_02\src\test\resources
+2024-01-04 09:06:57,571 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:06:57,571 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:06:57,572 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:06:57,572 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:13:40,095 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:13:40,095 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:13:40,097 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:13:40,097 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:13:44,422 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:13:44,422 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:13:44,424 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:13:44,424 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:14:48,014 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:14:48,015 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:14:48,016 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:14:48,016 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:16:22,785 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:16:22,785 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:16:22,787 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:16:22,788 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:21:08,160 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:21:08,160 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:21:08,164 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:21:08,165 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:22:57,520 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:22:57,520 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:22:57,522 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:22:57,522 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:43:54,094 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:43:54,095 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:43:54,098 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:43:54,099 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:50:29,799 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:50:29,800 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:50:29,802 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:50:29,803 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:52:19,683 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:52:19,683 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:52:19,685 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:52:19,685 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:54:10,435 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:54:10,435 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:54:10,437 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:54:10,437 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 09:54:55,427 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:54:55,428 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 09:54:55,430 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 09:54:55,430 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:01:28,204 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:01:28,204 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:01:28,206 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:01:28,206 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:05:56,861 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:05:56,862 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:05:56,864 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:05:56,864 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:07:10,632 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:07:10,632 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:07:10,635 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:07:10,635 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:07:38,314 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:07:38,314 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:07:38,317 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:07:38,317 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:10:45,398 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:10:45,398 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:10:45,399 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:10:45,400 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:11:54,083 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:11:54,083 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:11:54,085 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:11:54,085 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:12:44,487 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:12:44,487 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:12:44,489 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:12:44,489 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:14:36,369 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:14:36,369 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:14:36,371 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:14:36,371 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:19:29,217 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:19:29,217 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:19:29,218 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:19:29,219 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:26:04,610 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:26:04,610 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:26:04,612 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:26:04,612 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:26:30,310 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:26:30,310 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:26:30,312 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:26:30,312 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:27:03,276 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:27:03,276 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:27:03,278 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:27:03,278 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:32:04,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:32:04,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:32:04,197 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:32:04,197 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:36:39,864 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:36:39,865 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:36:39,866 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:36:39,866 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:36:51,314 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:36:51,314 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:36:51,315 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:36:51,315 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:38:50,963 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:38:50,963 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:38:50,965 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:38:50,965 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:40:15,297 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:40:15,297 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:40:15,299 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:40:15,299 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:45:10,521 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:45:10,521 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:45:10,523 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:45:10,523 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:47:27,199 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:47:27,199 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:47:27,201 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:47:27,201 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:48:51,225 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:48:51,226 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:48:51,228 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:48:51,228 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:48:53,787 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:48:53,787 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:48:53,789 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:48:53,789 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:51:17,104 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:51:17,105 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:51:17,106 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:51:17,106 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:53:09,380 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:53:09,380 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:53:09,382 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:53:09,382 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 10:53:41,264 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:53:41,264 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 10:53:41,265 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 10:53:41,266 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:04:06,369 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:06,369 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:04:06,371 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:06,371 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:04:18,823 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:18,823 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:04:18,824 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:18,824 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:04:39,327 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:39,327 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:04:39,329 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:04:39,329 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:05:42,662 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:05:42,662 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:05:42,664 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:05:42,664 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:05:45,100 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:05:45,100 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:05:45,102 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:05:45,102 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:07:27,715 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:07:27,715 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:07:27,717 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:07:27,717 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:08:25,907 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:08:25,908 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:08:25,909 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:08:25,909 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:08:36,442 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:08:36,443 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:08:36,444 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:08:36,445 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:09:04,599 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:04,599 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:09:04,601 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:04,601 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:09:06,476 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:06,476 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:09:06,477 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:06,477 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:09:57,649 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:57,649 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:09:57,652 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:09:57,652 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:11:11,103 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:11:11,104 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:11:11,105 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:11:11,105 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:11:58,204 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:11:58,204 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:11:58,207 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:11:58,207 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:12:37,480 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:12:37,480 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:12:37,482 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:12:37,482 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:15:18,894 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:15:18,894 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:15:18,895 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:15:18,895 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:16:08,289 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:16:08,289 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:16:08,290 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:16:08,291 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:19:27,196 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:19:27,197 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:19:27,198 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:19:27,199 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:21:40,934 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:21:40,934 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:21:40,935 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:21:40,936 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:22:43,738 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:22:43,738 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:22:43,739 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:22:43,740 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
+2024-01-04 11:22:54,177 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:22:54,178 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\main\resources
+2024-01-04 11:22:54,181 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-01-04 11:22:54,182 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\katuw\git\javaSpringFramework\spring_jdbc_03\src\test\resources
