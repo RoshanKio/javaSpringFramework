@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd																																																   htp://www.springframework.org/schema/context http://www.framework.org/schema/context/spring-context.xsd">
+	
+	<!--Load the properties file-->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:my.properties"></property>
+	</bean>
+
+	<!--For Using Annotations in our Application-->
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+	<!-- Datasource configuration-->
+	<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<!--Fetching the driverClassName from the Environment Variable-->
+		<property name="driverClassName" value="#{systemEnvironment['sqlDriverclass']}"></property>
+		
+		<!--Fetching mysqlServerUrl from the properties file->
+		<property name="url" value="${mysqlServerUrl}/springwithjdbc"></property>
+		
+		<!--Fetching the user details from the Environment Variables-->
+		<property name="username" value="#{systemEnvironment['sqlUsername']}"></property>
+		<property name="password" value="#{systemEnvironment['sqlPassword']}"></property>
+	</bean>
+	<!--JdbcTemplate configuration-->
+	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds"></property>
+	</bean>
+	<!--EmployeeDao configuration -->
+	<bean id="empDao" class="com.takeo.dao.impl.EmployeeDaoImpl"></bean>
+</beans>

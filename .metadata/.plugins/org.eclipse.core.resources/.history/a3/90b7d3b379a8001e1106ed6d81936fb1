@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springfranework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="std" class="com.takeo.Student">
+		
+		<property name="sNo">
+			<value>101</value>
+		</property>
+		
+		<property name="sName" value="Ram"/>
+		
+		<property name="sAddress" value="New York"/>
+		
+	</bean>
+
+</beans>

@@ -1,0 +1,21 @@
+package com.takeo.entity;
+
+public class College {
+	
+	private String name;
+	private Employee employee;
+	
+	static int c;
+	
+	private College() {
+		System.out.println((++c)+") Instantiating College Class.........");
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

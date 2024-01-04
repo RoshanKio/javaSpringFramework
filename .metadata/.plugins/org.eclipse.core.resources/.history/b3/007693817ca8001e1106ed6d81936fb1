@@ -1,0 +1,13 @@
+package com.takeo;
+
+public class Account {
+	
+	private int accNo;
+	private String accName;
+	
+	public Account(int accNo, String accName) {
+		this.accNo = accNo;
+		this.accName = accName;
+	}
+
+}

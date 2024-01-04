@@ -1,0 +1,62 @@
+package com.takeo.dao.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.takeo.dao.EmployeeDao;
+import com.takeo.entity.Employee;
+
+@Repository // Optional
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Autowired
+	private JdbcTemplate jt;
+
+	// CRUD:
+
+	// 1)Create:
+	public int saveEmployee(Employee employee) {
+		return jt.update("INSERT INTO employee(?,?,?)", employee.getEno(), employee.getEname(), employee.getSalary());
+	}
+
+	// 2)Retrieve:
+	public String getEname(int eno) {
+		return "";
+	}
+
+	public double getSalary(int eno) {
+		return 0;
+	}
+
+	public Employee getEmployeeById(int eno) {
+		return jt.queryForObject("SELECT * FROM employee where eno=?", new Object[] {Integer.valueOf(eno)}, new BeanPropertyRowMapper<>(Employee.class));
+	}
+
+	public List<Employee> getEmployees() {
+		return jt.query("select * from employee", new BeanPropertyRowMapper<>(Employee.class));
+	}
+
+	public Map getEmployeeDetails(int eno) {
+		return null;
+	}
+
+	// 3)Update:
+	public int updateEmployee(Employee employee) {
+		return jt.update("UPDATE employee set ename="+employee.getEname()+", salary="+employee.getSalary()+" where eno="+employee.getEno());
+	}
+
+	// 4)Delete
+	public int deleteEmployeeById(int eno) {
+		return jt.update("delete from employee where eno=?", eno);
+	}
+
+	public int deleteAllEmployees() {
+		return jt.update("DELETE FROM employee");
+	}
+
+}

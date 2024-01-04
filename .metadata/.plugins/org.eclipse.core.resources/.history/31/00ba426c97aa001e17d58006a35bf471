@@ -1,0 +1,26 @@
+package com.takeo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+import com.takeo.dao.impl.EmployeeDaoImpl;
+import com.takeo.entity.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	DriverManagerDataSource A;
+    public static void main( String[] args )
+    {
+        ApplicationContext cntxt = new ClassPathXmlApplicationContext("/resources/spring.xml");
+        EmployeeDaoImpl empDao = (EmployeeDaoImpl)cntxt.getBean("empDao");
+        
+        System.out.println(empDao.saveEmployee(new Employee(1, "Hari", 300004)));
+        
+        
+    }
+}

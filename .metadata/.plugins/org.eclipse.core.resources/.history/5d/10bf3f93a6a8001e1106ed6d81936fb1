@@ -1,0 +1,10 @@
+package com.takeo;
+
+public class SpringBean {
+	static int i;
+	
+	public SpringBean() {
+		System.out.println((++i)+")Executed the SpringBean class constructor.................");
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.takeo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.takeo.config.MyConfig;
+import com.takeo.entity.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext cntxt = new AnnotationConfigApplicationContext(MyConfig.class);
+        System.out.println("Just Instantiated the IOC COontainer class, AnnotationConfigApplicationContext...........");
+        
+        Student student1 = cntxt.getBean(Student.class);
+        student1.setNo(0); student1.setName("Krishna");
+        Student student2 = cntxt.getBean(Student.class);
+        student1.setNo(1); student2.setName("Ram");
+        System.out.println(student1+"\n"+student2);
+    }
+}

@@ -1,0 +1,23 @@
+package com.takeo;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.takeo.entity.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        BeanFactory factory = new ClassPathXmlApplicationContext("/spring.xml");
+        System.out.println("Just instantiated The IOC Container class, ClassPathXmlApplicationContext.............");
+        
+        
+        Employee emp1 = (Employee)factory.getBean("emp1");
+        System.out.println(emp1);
+    }
+}

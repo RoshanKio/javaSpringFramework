@@ -1,0 +1,2 @@
+#My Properties file
+baseUrl=jdbc:mysql://localhost:3306

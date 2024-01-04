@@ -1,0 +1,5 @@
+package com.takeo.dao.impl;
+
+public class EmployeeDaoImpl {
+
+}

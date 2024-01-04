@@ -1,0 +1,15 @@
+package com.takeo.pojo;
+
+public class College {
+	private String name;
+	private Student stud;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	private College(Student stud) {
+		this.stud = stud;
+	}
+}
+

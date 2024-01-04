@@ -1,0 +1,26 @@
+package com.takeo.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
+
+import com.takeo.entity.College;
+import com.takeo.entity.Employee;
+
+public class MyConfig {
+	
+	@Bean
+	@Scope("prototype")
+	public Employee getStudent() {
+		Employee emp = new Employee();
+		emp.setEno(101);
+		emp.setEname("Krishna");
+		return emp;
+	}
+	
+	
+	public College getCollege() {
+		College college = new College();
+		college.setName("BCC College");
+	}
+
+}
