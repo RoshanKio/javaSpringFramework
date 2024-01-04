@@ -1,14 +1,11 @@
 package com.takeo;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-import com.mysql.jdbc.Driver;
 import com.takeo.dao.impl.EmployeeDaoImpl;
 import com.takeo.entity.Employee;
 
@@ -17,8 +14,7 @@ import com.takeo.entity.Employee;
  *
  */
 public class App {
-
-	Employee employee;
+	//Employee employee;
 
 	public static void main(String[] args) {
 		BeanFactory cntxt = new ClassPathXmlApplicationContext("/spring.xml");
@@ -30,13 +26,14 @@ public class App {
 			System.out.println("Please Enter 2 for Retrieve Operation.....");
 			System.out.println("Please Enter 3 for Update Operation........");
 			System.out.println("Please Enter 4 for Delete Operation........");
+			System.out.println("Please Enter 5 to exit from this Application...........");
 			int i = sc.nextInt();
 
 			switch (i) {
 
 			case 1:
 				System.out.print("Please Enter the Employee Name...");
-				String ename = sc.nextLine();
+				String ename = sc.next();
 				System.out.print("Please Enter the Employee Salary......");
 				double salary = sc.nextDouble();
 
@@ -52,6 +49,26 @@ public class App {
 				break;
 
 			case 2:
+				System.out.print("PLease enter y if you want to retrieve all the employee details, else enter any key, if you want to retrieve employeen by Id..........");
+				String str1 = sc.next();
+				Object obj =  null;
+				if(str1.equals("y")) {
+					List<Employee> list = empDao.getAllEmployees();
+					obj = list;
+				}
+				else {
+					System.out.print("Please enter the Employee Number......");
+					int num = sc.nextInt();
+					Employee emp1 = empDao.getEmployeeById(num);
+					obj = emp1;
+				}
+				
+				if(obj.getClass().getName().equals("java.util.ArrayList") || obj.getClass().getName().equals("com.takeo.entity.Employee")) {
+					System.out.println("Successesfully retrieved the following:\n============================\n"+obj);
+				}
+				else {
+					System.out.println("Sorry, Unable to retrieve the Employee Details........");
+				}
 
 				break;
 
@@ -100,9 +117,13 @@ public class App {
 					
 				}
 				break;
+				
+			case 5:
+				System.exit(0);
+				break;
 
 			default:
-				System.out.println("Please enter either 1, or 2, or, 3 or 4");
+				System.out.println("Please enter either 1, or 2, or, 3 or 4 or 5");
 				break;
 
 			}
